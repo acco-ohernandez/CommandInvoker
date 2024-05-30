@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>CommandInvoker - Command 1</Text>
+    <Description>Some description for CommandInvoker</Description>
+    <Assembly>CommandInvoker.dll</Assembly>
+    <FullClassName>CommandInvoker.Command1</FullClassName>
+    <ClientId>b786dce2-03b2-4c11-b4b4-7b69b3fd1a6a</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>CommandInvoker - Command 2</Text>
+    <Description>Some description for CommandInvoker</Description>
+    <Assembly>CommandInvoker.dll</Assembly>
+    <FullClassName>CommandInvoker.Command2</FullClassName>
+    <ClientId>c3f4b20c-67b5-4d62-876e-5dc357435ffc</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>CommandInvoker</Name>
+    <Assembly>CommandInvoker.dll</Assembly>
+    <FullClassName>CommandInvoker.App</FullClassName>
+    <ClientId>c6c8fb90-f4c3-4819-898d-3377075ad9ac</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
